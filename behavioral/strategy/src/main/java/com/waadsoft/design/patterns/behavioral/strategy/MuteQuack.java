@@ -1,10 +1,15 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.behavioral.strategy;
 
 /**
  *
  * @author Alassani ABODJI <abodjialassani[at]gmail.com>
  */
-public abstract class Duck {
+public class MuteQuack implements QuackBehavior{
+
+    @Override
+    public void quack() {
+        //
+    }
 
 }
 

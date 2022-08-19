@@ -1,11 +1,11 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.behavioral.strategy;
 
 /**
  *
  * @author Alassani ABODJI <abodjialassani[at]gmail.com>
  */
-public interface QuackBehavior {
-    void quack();
+public abstract class Duck { 
+
 }
 
 /*=============================================================================

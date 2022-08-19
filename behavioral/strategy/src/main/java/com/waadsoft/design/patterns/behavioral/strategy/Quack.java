@@ -1,4 +1,4 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.behavioral.strategy;
 
 /**
  *
@@ -8,7 +8,7 @@ public class Quack implements QuackBehavior{
 
     @Override
     public void quack() {
-        //
+        System.out.println("");
     }
 
 }

@@ -1,4 +1,4 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.behavioral.strategy;
 
 /**
  *

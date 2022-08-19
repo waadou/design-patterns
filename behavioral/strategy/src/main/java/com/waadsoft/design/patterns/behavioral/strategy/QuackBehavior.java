@@ -1,16 +1,11 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.behavioral.strategy;
 
 /**
  *
  * @author Alassani ABODJI <abodjialassani[at]gmail.com>
  */
-public class Squeak implements QuackBehavior{
-
-    @Override
-    public void quack() {
-        //
-    }
-
+public interface QuackBehavior {
+    void quack();
 }
 
 /*=============================================================================

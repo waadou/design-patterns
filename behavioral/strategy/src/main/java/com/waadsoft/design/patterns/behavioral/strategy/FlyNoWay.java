@@ -1,13 +1,13 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.behavioral.strategy;
 
 /**
  *
  * @author Alassani ABODJI <abodjialassani[at]gmail.com>
  */
-public class MuteQuack implements QuackBehavior{
+public class FlyNoWay implements FlyBehavior {
 
     @Override
-    public void quack() {
+    public void fly() {
         //
     }
 

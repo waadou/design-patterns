@@ -1,15 +1,10 @@
-package com.waadsoft.strategy;
+package com.waadsoft.design.patterns.creational.singleton;
 
 /**
  *
  * @author Alassani ABODJI <abodjialassani[at]gmail.com>
  */
-public class FlyNoWay implements FlyBehavior {
-
-    @Override
-    public void fly() {
-        //
-    }
+public class Connection {
 
 }
 
